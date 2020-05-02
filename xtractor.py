@@ -1,4 +1,3 @@
-import msvcrt as m
 import requests
 import time
 import re
@@ -11,7 +10,7 @@ ____  ___ __                        __
  /     \ |  |  |  | \// __ \\  \___|  | (  <_> )  | \/
 /___/\  \|__|  |__|  (____  /\___  >__|  \____/|__|
       \_/                 \/     \/
-                                [@Sameera Madushan]
+                               
 
 '''
 print(banner)
@@ -66,7 +65,6 @@ except KeyboardInterrupt:
     print('\nProgramme Interrupted')
   
 print("\nPress any key to exit")
-m.getch()
 print("Exiting...")
 time.sleep(1)
   
